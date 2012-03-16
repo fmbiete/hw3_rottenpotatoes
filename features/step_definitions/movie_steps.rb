@@ -40,3 +40,4 @@ Then /^I should see (all|none) of the movies$/ do |display|
   expected_rows = display == 'all'? 11 : 1
   assert row_count == expected_rows, "Expected #{expected_rows - 1} Movies, Got #{row_count - 1}"
 end
+
